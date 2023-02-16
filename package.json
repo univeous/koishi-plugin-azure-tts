@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-azure-tts",
-  "description": "微软文本转语音服务。",
-  "version": "0.0.1",
+  "description": "Microsoft Azure 文本转语音。",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,25 @@
     "dist"
   ],
   "license": "MIT",
+  "contributors": ["Univeous <univeous@gmail.com>"],
   "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
+  "homepage": "https://github.com/univeous/koishi-plugin-azure-tts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/univeous/koishi-plugin-azure-tts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/univeous/koishi-plugin-azure-tts/issues"
+  },
   "peerDependencies": {
     "koishi": "^4.11.6"
+  },
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "^1.25.1"
   }
 }
